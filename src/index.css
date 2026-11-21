@@ -6,7 +6,7 @@
 :root {
   font-family: 'Manrope', sans-serif;
   color: #392b36;
-  background: #fff9fc;
+  background: hsl(330, 100%, 99%);
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   --bg: #fff9fc;
@@ -508,3 +508,7 @@ h1 {
 }
 .meta-line { width: 34px; height: 2px; background: var(--pink); }
 .meta-sep { opacity: .5; }
+
+.about-text {
+  text-align: justify;
+}

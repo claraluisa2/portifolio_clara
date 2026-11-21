@@ -14,7 +14,7 @@ const navItems = [
 const skillGroups = [
   { title: 'Desenvolvimento', icon: Code2, items: ['Python', 'C / C++', 'JavaScript', 'PHP', 'HTML & CSS'] },
   { title: 'Hardware & sistemas', icon: Cpu, items: ['Sistemas embarcados', 'Firmware', 'IoT', 'Arduino', 'ESP32'] },
-  { title: 'Pesquisa & tecnologia', icon: Bot, items: ['Robótica', 'Visão computacional', 'Machine Learning', 'Processamento de dados'] },
+  { title: 'Dados & Inteligência Artificial', icon: Bot, items: ['Machine Learning', 'Edge AI e TinyML','ETL', 'Análise e processamento de dados'] },
   { title: 'Ferramentas', icon: Database, items: ['Git & GitHub', 'MySQL', 'XAMPP', 'PlatformIO', 'MATLAB / Simulink'] },
 ]
 
@@ -86,9 +86,6 @@ function App() {
       <main>
         <section className="hero section-wrap" id="inicio">
           <div className="hero-copy">
-          <div className="eyebrow">
-            <span className="status-dot" /> PORTFÓLIO • 2026
-          </div>
 
           
           <p className="hero-kicker">Oi, eu sou a Clara.</p>
@@ -104,7 +101,7 @@ function App() {
           <p className="hero-description">
   Estudante de Engenharia da Computação, interessada em
   desenvolvimento de <strong>software</strong>, <strong>sistemas embarcados</strong>,{' '}
-  <strong>robótica</strong> e <strong>pesquisa</strong>.
+  <strong>dados</strong> e <strong>inteligência artificial.</strong>.
 </p>
 
 
@@ -213,7 +210,9 @@ function App() {
           </div>
           <div className="about-content">
             <p className="about-lead">Gosto de explorar a tecnologia por diferentes perspectivas.</p>
-            <p>Minha formação em Engenharia da Computação me permite transitar entre o desenvolvimento de software, os sistemas embarcados e a integração entre componentes físicos e digitais. Também tenho interesse em pesquisa e em aprender na prática, experimentando, testando e aprimorando ideias.</p>
+            <p className="about-text">Minha formação em Engenharia da Computação me permite transitar entre o desenvolvimento de software, os sistemas embarcados e a integração entre componentes físicos e digitais. Também tenho grande interesse pela área de dados e, 
+              principalmente, pelas possibilidades de aplicação de Machine Learning em soluções que integrem hardware e software. Recentemente, tenho me dedicado a explorar projetos envolvendo Edge AI e TinyML, unindo meu interesse por pesquisa ao aprendizado prático, 
+              por meio da experimentação, dos testes e do aprimoramento contínuo de ideias.</p>
             <p>Este espaço reúne um pouco do que venho estudando, desenvolvendo e descobrindo ao longo dessa jornada.</p>
             <div className="about-note"><Sparkles size={17}/><span>Em constante aprendizado, sempre construindo.</span></div>
           </div>
@@ -272,9 +271,8 @@ function App() {
             </div>
             <div className="contact-links">
               <a href="https://github.com/claraluisa2" target="_blank" rel="noreferrer"><Github size={19}/> GitHub <ArrowUpRight size={15}/></a>
-              <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer"><Linkedin size={19}/> LinkedIn <ArrowUpRight size={15}/></a>
-              <a href="mailto:"><Mail size={19}/> E-mail <ArrowUpRight size={15}/></a>
-              <span className="contact-hint">Adicione seus links pessoais quando quiser.</span>
+              <a href="https://www.linkedin.com/claraluisa2" target="_blank" rel="noreferrer"><Linkedin size={19}/> LinkedIn <ArrowUpRight size={15}/></a>
+              <a href="mailto:claraluisa2@gmail.com"><Mail size={19}/> E-mail <ArrowUpRight size={15}/></a>
             </div>
           </div>
         </section>
